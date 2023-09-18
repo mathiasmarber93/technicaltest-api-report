@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Country Information" skipped="0" tests="5" time="0.38" timestamp="2023-09-17 08:34:43"><testcase name="Get US country information"/><testcase name="Get DE country information"/><testcase name="Get GB country information"/><testcase name="Get information from non existent country"/><testcase name="Post new country"><failure message="&#13;&#10;Expecting:&#13;&#10; &lt;429&gt;&#13;&#10;to be equal to:&#13;&#10; &lt;201&gt;&#13;&#10;but was not." type="org.opentest4j.AssertionFailedError">&#13;
+Expecting:&#13;
+ &lt;429&gt;&#13;
+to be equal to:&#13;
+ &lt;201&gt;&#13;
+but was not.</failure><system-err>&#13;
+Expecting:&#13;
+ &lt;429&gt;&#13;
+to be equal to:&#13;
+ &lt;201&gt;&#13;
+but was not.&#13;
+api.countrylayer.com.definitions.CountryDefinitions.verifyResponseCode(CountryDefinitions.java:53)&#13;
+✽.the response code should be 201(file:///C:/Users/mathi/IdeaProjects/technicaltest-api/src/test/resources/features/country.feature:26)&#13;
+</system-err></testcase></testsuite>
